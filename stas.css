@@ -1,0 +1,95 @@
+*{
+	margin:0;
+	padding:0;
+	
+}
+
+.developer {
+	background: #e9e1ec;
+	border-radius: 10px;
+	min-height: 200px;
+	margin-top: 15px;
+	padding: 10px;
+	padding-bottom:30px;
+}
+
+.developer_image {
+	background: round url("https://avatars.mds.yandex.net/get-pdb/2854883/73c8efc1-f6dd-4fb7-8112-44f9207f29c3/s1200?webp=false");
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	border-radius: 50%;
+	margin-top: 10px;
+	margin-right: 20px;
+	vertical-align: top;
+}
+
+#radmarale .developer_image {
+	background: round url("./image/radmarale_image");
+}
+
+#Ksenia-C .developer_image {
+	background: round url("./image/Ksenia-C_image");
+}
+
+#stasana .developer_image {
+	background: round url("./image/stasana_image");
+}
+
+.developer_info {
+	padding:10px;
+	background: #fffef2;
+	display: inline-block;
+	width: calc(100% - 200px - 20px);
+	min-height: 120px;
+	border-radius: 10px;
+	text-align: center;
+	vertical-align: bottom;
+}
+
+.block_cell{
+	min-width:100%;
+	display:inline-block;
+	margin-bottom:20px;
+}
+
+.block_cell .right_sign {
+	float:right;
+	margin:15px;
+	margin-left:30px;
+	display:inline-block;
+	
+}
+
+.block_cell .left_sign {
+	float:left;
+	margin:15px;
+	margin-right:30px;
+	
+	
+}
+
+.right_sign figcaption, .left_sign figcaption {
+    
+	text-align:center;
+}
+
+.right_sign, .left_sign{
+	text-align:center;
+	
+}
+
+.round{
+	border-radius: 90px;
+	margin:5px;
+}
+
+.square{
+	float:left;
+	border:2px solid #414141;
+	margin:15px;
+	
+}
+
+
+
